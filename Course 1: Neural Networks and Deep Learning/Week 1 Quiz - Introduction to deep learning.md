@@ -54,11 +54,7 @@
     - [ ] RNNs represent the recurrent process of Idea->Code->Experiment->Idea->....
     
 9. In this diagram which we hand-drew in lecture, what do the horizontal axis (x-axis) and vertical axis (y-axis) represent?
-<<<<<<< HEAD
 ![image](https://github.com/lukaswangbk/Deep-Learning-Specialication/blob/main/Course%201:%20Neural%20Networks%20and%20Deep%20Learning/images/performance%20of%20NN.png)
-=======
-$![](images/performance of NN.jpg)$
->>>>>>> 51777351af21a2e15eb9d1d3061f632486649aa8
     - x-axis is the amount of data
     - y-axis (vertical axis) is the performance of the algorithm.
 
