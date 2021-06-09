@@ -12,8 +12,8 @@ This repo contains all my work for this specialization. All the code base, quiz 
 
   - [Week 2 - PA 1 - Logistic Regression with a Neural Network mindset](https://github.com/lukaswangbk/Deep-Learning-Specialication/blob/main/Course%201:%20Neural%20Networks%20and%20Deep%20Learning/Logistic_Regression_with_a_Neural_Network_mindset.ipynb)
   - [Week 3 - PA 2 - Planar data classification with one hidden layer](https://github.com/lukaswangbk/Deep-Learning-Specialication/blob/main/Course%201:%20Neural%20Networks%20and%20Deep%20Learning/Planar_data_classification_with_one_hidden_layer.ipynb)
-  - [Week 4 - PA 3 - Building your Deep Neural Network: Step by Step¶]()
-  - [Week 4 - PA 4 - Deep Neural Network for Image Classification: Application]()
+  - [Week 4 - PA 3 - Building your Deep Neural Network: Step by Step¶](https://github.com/lukaswangbk/Deep-Learning-Specialication/blob/main/Course%201:%20Neural%20Networks%20and%20Deep%20Learning/Building_your_Deep_Neural_Network_Step_by_Step.ipynb)
+  - [Week 4 - PA 4 - Deep Neural Network for Image Classification: Application](https://github.com/lukaswangbk/Deep-Learning-Specialication/blob/main/Course%201:%20Neural%20Networks%20and%20Deep%20Learning/Deep%20Neural%20Network%20-%20Application.ipynb)
 
 - Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 
