@@ -29,7 +29,7 @@
 
     Jan 1st: θ_1 = 10
     
-    Jan 2nd: θ_2 * 10
+    Jan 2nd: θ_2 = 10
     
     Say you use an exponentially weighted average with β = 0.5 to track the temperature: v_0 = 0, v_t = βv_t−1 + (1 − β)θ_t. If v_2 is the value computed after day 2 without bias correction, and v^corrected_2 is the value you compute with bias correction. What are these values?
     
@@ -38,9 +38,7 @@
 6. Which of these is NOT a good learning rate decay scheme? Here, t is the epoch number.
 
     - α = e^t * α_0
-    
-    Note: This will explode the learning rate rather than decay it.
-    
+        
 7. You use an exponentially weighted average on the London temperature dataset. You use the following to track the temperature: v_t = βv_t−1 + (1 − β)θ_t. The red line below was computed using β = 0.9. What would happen to your red curve as you vary β? (Check the two that apply)
 
     - Increasing β will shift the red line slightly to the right.

@@ -73,10 +73,10 @@
 
     The results from this analysis implies that the team’s highest priority should be to bring more foggy pictures into the training set so as to address the 8.0% of errors in that category. True/False?
     
-    - [x] False because this would depend on how easy it is to add this data and how much you think your team thinks it’ll help.
+    - [x] False because it depends on how easy it is to add foggy data. If foggy data is very hard and costly to collect, it might not be worth the team’s effort.
     - [ ] True because it is the largest category of errors. As discussed in lecture, we should prioritize the largest category of error to avoid wasting the team’s time.
     - [ ] True because it is greater than the other error categories added together (8.0 > 4.1+2.2+1.0).
-    - [ ] False because data augmentation (synthesizing foggy images by clean/non-foggy images) is more efficient.
+    - [ ] First start with the sources of error that are least costly to fix..
     
 9. You can buy a specially designed windshield wiper that help wipe off some of the raindrops on the front-facing camera. Based on the table from the previous question, which of the following statements do you agree with?
 
@@ -86,7 +86,7 @@
     
 10. You decide to use data augmentation to address foggy images. You find 1,000 pictures of fog off the internet, and “add” them to clean images to synthesize foggy days, like this:
 
-    Which of the following statements do you agree with? (Check all that apply.)
+    Which of the following statements do you agree with?
     
     - So long as the synthesized fog looks realistic to the human eye, you can be confident that the synthesized data is accurately capturing the distribution of real foggy images, since human vision is very accurate for the problem you’re solving.
     

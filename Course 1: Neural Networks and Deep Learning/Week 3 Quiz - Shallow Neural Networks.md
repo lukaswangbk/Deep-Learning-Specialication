@@ -7,15 +7,11 @@
     - a^\[2\](12) denotes the activation vector of the 2nd layer for the 12th training example.
     - a^[2] denotes the activation vector of the 2nd layer.
     
-    Note: If you are not familiar with the notation used in this course, check [here](https://www.coursera.org/learn/neural-networks-deep-learning/resources/YsZjP).
-
 2. The tanh activation usually works better than sigmoid activation function for hidden units because the mean of its output is closer to zero, and so it centers the data better for the next layer. True/False?
 
     - [x] True
     - [ ] False
-    
-    Note: You can check [this post](https://stats.stackexchange.com/a/101563/169377) and (this paper)[http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf].
-    
+        
     > As seen in lecture the output of the tanh is between -1 and 1, it thus centers the data which makes the learning simpler for the next layer.
     
 3. Which of these is a correct vectorized implementation of forward propagation for layer l, where 1≤l≤L?
@@ -30,9 +26,7 @@
     - [x] sigmoid
     - [ ] tanh
     
-    Note: The output value from a sigmoid function can be easily understood as a probability.
-    
-    > Sigmoid outputs a value between 0 and 1 which makes it a very good choice for binary classification. You can classify as 0 if the output is less than 0.5 and classify as 1 if the output is more than 0.5. It can be done with tanh as well but it is less convenient as the output is between -1 and 1.
+    > Sigmoid outputs a value between 0 and 1 which makes it a very good choice for binary classification. You can classify as 0 if the output is less than 0.5 and classify as 1 if the output is more than 0.5. It can be done with tanh as well but it is less convenient as the output is between -1 and 1. The output value from a sigmoid function can be easily understood as a probability.
     
 5. Consider the following code:
 
@@ -87,4 +81,3 @@
 
     - Z[1] and A[1] are (4,m)
     
-    Note: Check [here](https://user-images.githubusercontent.com/14886380/29200515-7fdd1548-7e88-11e7-9d05-0878fe96bcfa.png) for general formulas to do this.

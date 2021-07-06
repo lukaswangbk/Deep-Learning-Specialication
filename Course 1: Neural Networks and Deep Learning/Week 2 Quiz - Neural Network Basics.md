@@ -32,7 +32,7 @@
     
     What will be the shape of "c"?
     
-    b (column vector) is copied 3 times so that it can be summed to each column of a. Therefore, `c.shape = (2, 3)`.
+    - b (column vector) is copied 3 times so that it can be summed to each column of a. Therefore, `c.shape = (2, 3)`.
     
     
 5. Consider the two following random arrays "a" and "b":
@@ -45,19 +45,12 @@
     
     What will be the shape of "c"?
     
-     "*" operator indicates element-wise multiplication. Element-wise multiplication requires same dimension between two matrices. It's going to be an error.
+     - "*" operator indicates element-wise multiplication. Element-wise multiplication requires same dimension between two matrices. It's going to be an error.
 
 6. Suppose you have n_x input features per example. Recall that X=[x^(1), x^(2)...x^(m)]. What is the dimension of X?
 
-    `(n_x, m)`
+    - `(n_x, m)`
 
-    Note: A stupid way to validate this is use the formula Z^(l) = W^(l)A^(l) when l = 1, then we have
-    
-    - A^(1) = X
-    - X.shape = (n_x, m) 
-    - Z^(1).shape = (n^(1), m)
-    - W^(1).shape = (n^(1), n_x)
-    
 7. Recall that `np.dot(a,b)` performs a matrix multiplication on a and b, whereas `a*b` performs an element-wise multiplication.
 
     Consider the two following random arrays "a" and "b":
@@ -70,7 +63,7 @@
     
     What is the shape of c?
     
-    `c.shape = (12288, 45)`, this is a simple matrix multiplication example.
+    - `c.shape = (12288, 45)`
     
 8. Consider the following code snippet:
 
@@ -84,7 +77,7 @@
     
     How do you vectorize this?
 
-    `c = a + b.T`
+    - `c = a + b.T`
 
 9. Consider the following code:
 
@@ -96,7 +89,7 @@
     
     What will be c?
     
-    This will invoke broadcasting, so b is copied three times to become (3,3), and ∗ is an element-wise product so `c.shape = (3, 3)`.
+    - This will invoke broadcasting, so b is copied three times to become (3,3), and ∗ is an element-wise product so `c.shape = (3, 3)`.
     
 10. Consider the following computation graph.
 
@@ -107,4 +100,4 @@
       = (a - 1) * (b + c)
     ```
       
-    Answer: `(a - 1) * (b + c)`
+    - `(a - 1) * (b + c)`
